@@ -1,10 +1,10 @@
 <?php
 
-namespace Quantic\Uxdebugger\Debugger;
+namespace Quantic\Uxdebugger;
 
 class Debugger
 {
-    public function __construct()
+    public static function ignite()
     {
         return 'test';
     }
