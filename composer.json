@@ -1,0 +1,31 @@
+{
+  "name": "quantic/uxdebugger",
+  "type": "library",
+  "description": "Quantic Framework Ux-Debugger",
+  "keywords": ["quantic","uxdebugger"],
+  "homepage": "https://github.com/Quantical-Solutions/package-quantic-uxdebugger",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Frédéric Geffray",
+      "email": "in-touch-fg@quanticalsolutions.com",
+      "homepage": "https://quanticalsolutions.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.3.0",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Quantic\\Uxdebugger\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Quantic\\Uxdebugger\\Tests": "tests/"
+    }
+  },
+  "minimum-stability": "stable"
+}
